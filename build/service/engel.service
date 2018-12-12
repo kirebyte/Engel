@@ -1,0 +1,12 @@
+[Unit]
+Description=Engel Bot
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/opt/engel
+ExecStart=/opt/engel/engel
+ExecReload=/bin/kill -HUP $MAINPID
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
