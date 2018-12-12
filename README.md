@@ -27,12 +27,12 @@ $make
 $make install
 
 ```
-Set your API key in /opt/etc/engel/config
+Set your API key and config values in /opt/etc/engel/config
 
 run engel
 
 ```
-./engel
+sudo service engel start
 ```
 
 ## Configuring the RSSH
@@ -52,54 +52,24 @@ RemoteServer = 255.255.255.255
 
 where **remote port** represents the port in the server you will use to access your machine, the **ssh port** is the port you have configured in your machine, 22 is the default. remoteUser and remoteServer represent the user and address of the server you'll be forwarding the ssh connection.
 
-## Running the tests
-
-PENDING
-
-### Break down into end to end tests
-
-PENDING
-
-```
-PENDING
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-PENDING
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [python](http://www.google.com/) - Python 3.x
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://www.google.com) for details on our code of conduct, and the process for submitting pull requests to us.
+* Python 3.x
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/Engel/tags).
 
 ## Authors
 
-* **KireByte** - *Initial work* - [KireByte](https://www.google.com)
+* **KireByte** - *Initial work*
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the GNU GPL V3 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU GPL V3
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Keyrah Engel
