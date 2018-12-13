@@ -1,6 +1,6 @@
 # Engel Virtual Assistant Engine
 
-Engel is a telegram bot based virtual assistant. It's designed to run as a linux system service, becoming capable of executing everything without restrictions, use it under a strict access policy otherwise your operating system might become easily compromised by attackers.
+Engel is a Telegram bot-based virtual assistant. It's designed to run as a Linux system service, becoming capable of executing everything without restrictions. Use it under a strict access policy, otherwise your operating system might become easily compromised by attackers.
 
 
 
@@ -58,13 +58,13 @@ where **remote port** represents the port in the server you will use to access y
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/Engel/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Engel/tags).
 
 ## Authors
 
 * **KireByte** - *Initial work*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Engel/contributors) who participated in this project.
 
 ## License
 
