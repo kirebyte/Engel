@@ -58,13 +58,13 @@ where **remote port** represents the port in the server you will use to access y
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Engel/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Kirebyte/Engel/tags).
 
 ## Authors
 
 * **KireByte** - *Initial work*
 
-See also the list of [contributors](https://github.com/Engel/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Kirebyte/Engel/contributors) who participated in this project.
 
 ## License
 
